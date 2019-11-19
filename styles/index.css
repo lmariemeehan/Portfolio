@@ -3,6 +3,20 @@ body, html {
   font-family: 'Roboto', sans-serif;
 }
 
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  color: #fff;
+  margin: 0px 5px;
+  padding: 10px 13px;
+}
+
 .featured-image {
   background-image: url("https://res.cloudinary.com/laurameehan/image/upload/v1573887135/thought-2123970_1920_o3fl68.jpg");
   height: 100vh;
@@ -15,15 +29,21 @@ body, html {
 
 .caption {
   display: flex;
-  height: 100%;
-  font-family: 'Playfair Display', serif;
-  color: #fff;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  height: 100%;
+  color: #fff;
   padding-left: 30px;
+  font-family: 'Playfair Display', serif;
 }
 
-#projects h3 {
+.caption p {
+  font-size: 1.5em;
+}
+
+.headers {
   font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  color: #c0c0c0;
 }
