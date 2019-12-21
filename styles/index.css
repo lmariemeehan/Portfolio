@@ -3,18 +3,9 @@ body, html {
   font-family: 'Roboto', sans-serif;
 }
 
-#navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-.nav-list {
+.nav {
   font-family: 'Roboto', sans-serif;
-  list-style-type: none;
   color: #fff;
-  margin: 0px 5px;
-  padding: 10px 13px;
 }
 
 .featured-image {
@@ -34,7 +25,7 @@ body, html {
   justify-content: center;
   height: 100%;
   color: #fff;
-  padding-left: 30px;
+  padding-left: 100px;
   font-family: 'Playfair Display', serif;
 }
 
@@ -46,4 +37,8 @@ body, html {
   font-family: 'Playfair Display', serif;
   font-size: 2.5em;
   color: #c0c0c0;
+}
+
+#projects {
+  margin-top: 70px;
 }
