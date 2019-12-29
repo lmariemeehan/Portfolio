@@ -43,8 +43,31 @@ body, html {
   p {
     line-height: 1.8;
   }
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    li {
+      padding: 20px;
+      font-size: 26px;
+      text-align: center;
+      i {
+        font-size: 40px;
+      }
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
 }
 
 #projects {
   margin-top: 70px;
+}
+
+#contact {
+  margin-bottom: 70px;
 }

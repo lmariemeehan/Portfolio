@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap" rel="stylesheet">
   <title>Laura Meehan - Web Developer</title>
   <!--Icons-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
@@ -42,13 +43,14 @@
 
   <!-- About me -->
     <section id="about-me">
-      <div class="container mt-57">
-        <h3 class="headers">About</h3>
+      <div class="container mt-5">
         <div class="card border-0">
-        <div class="row">
+        <div class="row my-5">
           <div class="col">
+            <h2 class="headers d-flex justify-content-center">About</h2>
+
             <figure class="figure">
-              <img class="figure-img img-fluid mr-4" src="./Images/Meandboys.jpg" alt="Picture of me with my sons" width="300" height="350">
+              <img class="figure-img img-fluid mt-5" src="./Images/Meandboys.jpg" alt="Picture of me with my sons" width="300" height="350">
               <figcaption class="figure-caption">Me and my sons, Thomas (5) and Charlie (3)</figcaption>
             </figure>
             <div class="pull-left">
@@ -64,8 +66,43 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <img src="./images/familypicture.jpg" class="img-fluid" alt="Family picture" width="737" height="424">
+
+      <h3 class="d-flex justify-content-center">Skills</h3>
+      <div class="d-flex justify-content-center">
+        <ul class="skills">
+          <li>
+            <i class="fab fa-html5"></i>
+            <p>HTML</p>
+          </li>
+          <li>
+            <i class="fab fa-css3-alt"></i>
+            <p>CSS</p>
+          </li>
+          <li>
+            <i class="fab fa-js"></i>
+            <p>JavaScript</p>
+          </li>
+          <li>
+            <i class="fab fa-react"></i>
+            <p>React</p>
+          </li>
+          <li>
+            <i class="fab fa-node"></i>
+            <p>Node</p>
+          </li>
+          <li>
+            <i class="fab fa-github"></i>
+            <p>Github</p>
+          </li>
+          <li>
+            <img src="./images/iconfinder_postgresql_4691328.svg" alt="PostgreSQL icon">
+            <p>PostgreSQL</p>
+          </li>
+          <li>
+            <i class="fab fa-bootstrap"></i>
+            <p>Bootstrap</p>
+          </li>
+        </ul>
       </div>
 
       </div>
@@ -74,11 +111,11 @@
   <!-- Projects showcase -->
     <section id="projects">
       <div class="container">
-        <h3 class="headers">Projects</h3>
+        <h2 class="headers d-flex justify-content-center">Projects</h2>
         <div class="grid">
-
+          <div class="row my-5">
           <figure class="effect-zoe">
-            <img src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,h_398,w_580/v1577426022/Resonate_Landing_Page_dzy8ow.png" alt="Music App Landing Page">
+            <img src="./images/ResonateLandingPage.png" class="img-fluid" alt="Music App Landing Page" width="400" height="500">
             <figcaption>
               <h2>Resonate</h2>
               <p class="icon-links">
@@ -90,7 +127,7 @@
           </figure>
 
           <figure class="effect-zoe">
-            <img src="https://res.cloudinary.com/laurameehan/image/upload/c_scale,h_398,w_580/v1577427930/Hello_Landing_Page_from_heroku_hcwsgl.png" alt="Chat App">
+            <img src="./images/hello-landing-page.png" class="img-fluid" alt="Chat App" width="400" height="500">
             <figcaption>
               <h2>Hello</h2>
               <p class="icon-links">
@@ -100,7 +137,7 @@
               <p class="description">Music player built with React</p>
             </figcaption>
           </figure>
-
+          </div>
         </div>
       </div>
     </section>
@@ -108,7 +145,7 @@
   <!-- Contact section -->
     <section id="contact">
       <div class="container">
-        <h3 class="headers">Contact</h3>
+        <h2 class="headers d-flex justify-content-center">Contact</h2>
       </div>
     </section>
 
