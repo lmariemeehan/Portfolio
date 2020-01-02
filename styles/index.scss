@@ -58,11 +58,11 @@ body, html {
   }
   .card {
     background-color: $mediumPurple_4;
+    border-radius: 6px;
     img {
       position: relative;
       z-index: 1;
       top: -40px;
-      left: -50px;
       background-color: $richPurple_5;
       box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
       0 4px 25px 0px rgba(0, 0, 0, 0.12),
@@ -73,13 +73,32 @@ body, html {
     }
   }
   #about-story {
-    background-color: $richPurple_5;
+    background-color: $brightPurple_3;
+  }
+  #work-in-progress {
+    background-color: $lightSkyPurple_2;
+    .card-body {
+      display: inline-block;
+      position: relative;
+    }
+    img {
+      position: relative;
+      z-index: 1;
+      top: -40px;
+      left: -20px;
+      right: -20px;
+      background-color: $richPurple_5;
+      box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+      0 4px 25px 0px rgba(0, 0, 0, 0.12),
+      0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    }
   }
 }
 
 //Skills section
 .col-4 {
   background-color: $mediumPurple_4;
+  border-radius: 6px;
   h4 {
     color: $lightSkyPurple_2;
   }
@@ -95,7 +114,6 @@ body, html {
       width: 30px;
       height: 30px;
       color: #6C63FF;
-      background-color: #6C63FF;
     }
   }
 
@@ -130,6 +148,7 @@ body, html {
   	width: 48%;
   	background: #343071;
   	text-align: center;
+    border-radius: 6px;
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
     0 4px 25px 0px rgba(0, 0, 0, 0.12),
     0 8px 10px -5px rgba(0, 0, 0, 0.2);
