@@ -49,14 +49,14 @@ body, html {
 #about-me {
   background-color: $deepPurple_1;
   h5 a {
-    color: $richPurple_5;
+    color: #fff;
   }
   p {
     font-size: 18px;
     line-height: 1.8;
     color: #fff;
   }
-  .card {
+  #about-me-card {
     background-color: $mediumPurple_4;
     border-radius: 6px;
     img {
@@ -242,7 +242,7 @@ figure.effect-zoe:hover p.icon-links a:focus {
 	color: #252d31;
 }
 
-figure.effect-zoe p.description {
+figure.effect-zoe .description {
 	position: absolute;
 	bottom: 8em;
 	padding: 2em;
@@ -286,7 +286,7 @@ figure.effect-zoe h3 {
 	display: inline-block;
 }
 
-figure.effect-zoe:hover p.description {
+figure.effect-zoe:hover .description {
 	opacity: 1;
 }
 
