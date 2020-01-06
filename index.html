@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap" rel="stylesheet">
   <title>Laura Meehan - Web Developer</title>
   <!--Icons-->
+  <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <!--Jquery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -51,7 +52,6 @@
         <div class="caption">
           <h1>Hi, I'm Laura :)</h1>
           <p>I'm a full-stack web developer.</p>
-          <button class="btn btn-primary">Click to delete</button>
         </div>
       </div>
     </section>
@@ -59,9 +59,7 @@
   <!-- About me -->
     <section id="about-me">
       <div class="container pt-5">
-
         <h2 class="headers d-flex justify-content-center">About</h2>
-
         <div class="row py-5">
           <div class="col">
             <div id="about-me-card" class="card my-5 mr-3 border-0" style="max-width: 540px;">
@@ -71,9 +69,9 @@
                 </div>
                 <div class="col-md-4">
                   <div class="card-body">
-                    <h5><a class="card-text" href="https://github.com/lmariemeehan" target="_blank">Github</a></h5>
-                    <h5><a class="card-text" href="https://www.linkedin.com/in/laura-meehan/" target="_blank">LinkedIn</a></h5>
-                    <h5><a class="card-text" href="#" target="_blank">Resume</a></h5>
+                    <h5 class="mt-2 mb-4"><a class="card-text" href="https://github.com/lmariemeehan" target="_blank"><i class="fab fa-github"></i> Github</a></h5>
+                    <h5 class="mb-4"><a class="card-text" href="https://www.linkedin.com/in/laura-meehan/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></h5>
+                    <h5 class="mb-4"><a class="card-text" href="#" target="_blank"><i class="far fa-file"></i> Resume</a></h5>
                   </div>
                 </div>
               </div>
@@ -88,41 +86,36 @@
               </div>
             </div>
 
-            <div id="work-in-progress" class="card mr-3" style="max-width: 540px;">
-              <div class="row no-gutters">
-                  <div class="col">
-                    <div class="card-body"></div>
-                    <img class="img img-fluid rounded" src="https://res.cloudinary.com/laurameehan/image/upload/v1577864076/undraw_in_progress_ql66_wvcvnc.svg" alt="">
-                </div>
-              </div>
+            <div class="card mr-2" id="work-in-progress" style="max-width: 540px;">
+              <div class="card-body">
+                <img class="img img-fluid rounded" src="https://res.cloudinary.com/laurameehan/image/upload/v1577864076/undraw_in_progress_ql66_wvcvnc.svg" alt="">
             </div>
           </div>
+        </div>
 
-          <div class="col-4 text-center">
+          <div class="col-4 text-center" id="skills">
             <h4 class="my-4">Front-End Skills</h4>
               <p><i class="fab fa-html5"></i>HTML</p>
               <p><i class="fab fa-css3-alt"></i>CSS</p>
               <p><i class="fab fa-js"></i>JavaScript</p>
               <p><i class="fab fa-react"></i>React</p>
-              <p><img src="./images/babel-1.svg" alt="">Babel</p>
-              <p><img src="./images/responsive-design-117.svg">Responsive Design</p>
+              <p><img src="./images/icons/babel-1.svg" alt="">Babel</p>
+              <p><img src="./images/icons/responsive-design-117.svg">Responsive Design</p>
               <p><i class="fab fa-bootstrap"></i>Bootstrap</p>
               <p><i class="fab fa-sass"></i>Sass</p>
 
             <h4 class="my-4">Back-End Skills</h4>
               <p><i class="fab fa-node-js"></i>Node.js</p>
-              <p><img src="./images/express-8.svg" alt="express.js icon">Express</p>
-              <p><img src="./images/jasmine-16.svg" alt="jasmine icon">Jasmine Testing</p>
-              <p><img src="./images/heroku-8.svg" alt="heroku icon">Heroku</p>
-              <p><img src="./images/postgresql-7.svg" alt="">PostgreSQL</p>
+              <p><img src="./images/icons/express-8.svg" alt="express.js icon">Express</p>
+              <p><img src="./images/icons/jasmine-16.svg" alt="jasmine icon">Jasmine Testing</p>
+              <p><img src="./images/icons/heroku-8.svg" alt="heroku icon">Heroku</p>
+              <p><img src="./images/icons/postgresql-7.svg" alt="">PostgreSQL</p>
 
               <h4 class="my-4">Other Skills</h4>
               <p><i class="fab fa-github"></i>Github</p>
               <p><i class="fab fa-trello"></i>Trello</p>
-              <p><img src="./images/computer-network-34.svg" alt="mvc architecture icon">MVC Architecture</p>
+              <p><img src="./images/icons/computer-network-34.svg" alt="mvc architecture icon">MVC Architecture</p>
           </div>
-
-
 
         </div>
       </div>
@@ -133,32 +126,32 @@
       <hr>
       <div class="container py-5">
         <h2 class="headers d-flex justify-content-center">Projects</h2>
-        <div class="row">
-        <div class="grid">
-          <figure class="effect-zoe">
-            <img src="./images/ResonateLandingPage.png" class="img-fluid" alt="Music App Landing Page">
-            <figcaption>
-              <h3>Resonate</h3>
-              <p class="icon-links">
-                <a href="https://github.com/lmariemeehan/Resonate" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-              </p>
-              <h4 class="description">Music player (similar to Spotify)</h4>
-              <p>Built with: React</p>
-            </figcaption>
-          </figure>
-
-          <figure class="effect-zoe">
-            <img src="./images/hello-landing-page.png" class="img-fluid" alt="Chat App">
-            <figcaption>
-              <h3>Hello</h3>
-              <p class="icon-links">
-                <a href="https://github.com/lmariemeehan/Hello" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-              </p>
-              <h4 class="description">Chat app built with React and Firebase for the database</h4>
-            </figcaption>
-          </figure>
+        <div id="test" class="row my-3">
+          <div class="card-deck mt-5 ">
+            <div class="card p-5 mb-5 animated slideInUp">
+              <span class="d-flex justify-content-center"><ion-icon name="headset"></ion-icon></span>
+              <div class="card-body ">
+                <h5 class="card-title">Resonate: React Music App</h5>
+                <p class="card-text">This is a SPA music player built with React.js from the ground-up. Similar to Spotify.</p>
+              </div>
+              <small class="text-muted">Project checklist: React, JSX, CSS, JavaScript, Bootstrap</small>
+            </div>
+            <div class="card p-5 mb-5 animated slideInUp delay-1s">
+              <span class="d-flex justify-content-center"><i class="far fa-comment-dots"></i></span>
+              <div class="card-body">
+                <h5 class="card-title">Hello: React & Firebase Chat App</h5>
+                <p class="card-text">This is a SPA front-end chat app built with React.js from the ground-up.</p>
+              </div>
+                <small class="text-muted">Project checklist: React, JSX, CSS, JavaScript, Firebase</small>
+            </div>
+            <div class="card p-5 mb-5 animated slideInUp delay-2s">
+              <span class="d-flex justify-content-center"><i class="fab fa-leanpub"></i></span>
+              <div class="card-body">
+                <h5 class="card-title">Inquisitive: Node.js Wikipedia App</h5>
+                <p class="card-text">An MVC structured Node.js application that allows users to create, collaborate, and share wikis.</p>
+              </div>
+                <small class="text-muted">Project checklist: Node, SendGrid, Jasmine, Stripe, PostgreSQL...</small>
+            </div>
           </div>
         </div>
       </div>
@@ -172,6 +165,7 @@
       </div>
     </section>
 
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   <!--Bootstrap 4-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
