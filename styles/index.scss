@@ -126,6 +126,9 @@ body, html {
     0 4px 25px 0px rgba(0, 0, 0, 0.12),
     0 8px 10px -5px rgba(0, 0, 0, 0.2);
   }
+  span {
+    background-image: linear-gradient($lightSkyPurple_2, $darkSkyPurple_5);
+  }
   ion-icon, i {
     color: $brightPurple_3;
     background-color: $richPurple_5;
@@ -141,6 +144,10 @@ body, html {
   }
   p {
     color: $lightSkyPurple_2;
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
