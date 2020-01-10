@@ -58,24 +58,16 @@ body, html {
   }
   #about-story {
     background-color: $brightPurple_3;
-    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
-    0 4px 25px 0px rgba(0, 0, 0, 0.12),
-    0 8px 10px -5px rgba(0, 0, 0, 0.2);
-  }
-  #work-in-progress {
-    background-color: $lightSkyPurple_2;
-    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
-    0 4px 25px 0px rgba(0, 0, 0, 0.12),
-    0 8px 10px -5px rgba(0, 0, 0, 0.2);
     img {
       position: relative;
       z-index: 1;
-      background-color: $richPurple_5;
-      box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
-      0 4px 25px 0px rgba(0, 0, 0, 0.12),
-      0 8px 10px -5px rgba(0, 0, 0, 0.2);
+      top: -50px;
     }
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+    0 4px 25px 0px rgba(0, 0, 0, 0.12),
+    0 8px 10px -5px rgba(0, 0, 0, 0.2);
   }
+
 }
 
 // About - Skills section
@@ -139,6 +131,19 @@ body, html {
   .links {
     display: flex;
     justify-content: space-between;
+  }
+}
+
+#work-in-progress {
+background-color: $darkSkyPurple_5;
+  img {
+    position: relative;
+    z-index: 1;
+    top: -40px;
+    background-color: #fff;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+    0 4px 25px 0px rgba(0, 0, 0, 0.12),
+    0 8px 10px -5px rgba(0, 0, 0, 0.2);
   }
 }
 

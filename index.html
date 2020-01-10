@@ -54,20 +54,15 @@
         <h2 class="headers d-flex justify-content-center">About</h2>
         <div class="row py-5">
           <div class="col">
-            <div id="about-story" class="card mr-5 mb-5">
+            <div class="card mr-5 mb-5" id="about-story">
               <div class="card-body">
+                <img class="card-img" src="./images/undraw_dreamer_gxxi.svg" alt="">
                 <p>I've decided to make a career change after four years in payroll accounting to pursue web development because it embodies what I love to do most, which is to create. After discovering web development and spending upwards to a year of learning on my own, I decided to immerse myself in Bloc's (now Thinkful's) web development apprenticeship program where my love for code and problem-solving intensified.
                 </p>
 
                 <p>My current focus is now on more frontend development using HTML5, CSS3, Sass, JavaScript, and React for building user interfaces. I also have experience building with Node.js, TDD Testing, Wordpress, PostgreSQL, and other fun, collaborating tools. Even with all of these nifty things in my tool belt, I am always open to learning new technologies and exploring possibilities.</p>
               </div>
             </div>
-
-            <div class="card mr-2" id="work-in-progress" style="max-width: 540px;">
-              <div class="card-body">
-                <img class="img img-fluid rounded" src="https://res.cloudinary.com/laurameehan/image/upload/v1577864076/undraw_in_progress_ql66_wvcvnc.svg" alt="">
-            </div>
-          </div>
         </div>
 
           <div class="col-4 text-center" id="skills">
@@ -107,48 +102,56 @@
         <h2 class="headers d-flex justify-content-center">Projects</h2>
         <div id="test" class="row my-3">
           <div class="card-deck mt-5 ">
-
-            <div class="card p-5 mb-5 animated slideInUp" id="resonate-project">
-              <span class="d-flex justify-content-center p-2 rounded"><i class="fas fa-headphones"></i></span>
-              <div class="card-body ">
-                <h5 class="card-title">Resonate: React Music App</h5>
-                <p class="card-text">This is a SPA music player built with React.js from the ground-up. Similar to Spotify.</p>
+            <div class="card p-4 mb-5 animated slideInUp" id="resonate-project">
+                <span class="d-flex justify-content-center p-2 rounded"><i class="fas fa-headphones"></i></span>
+                <div class="card-body">
+                <h5 class="card-title text-center">Resonate</h5>
+                <p class="card-text">A SPA music player app built with React.js from the ground-up. Similar to Spotify.</p>
                 <div class="links">
-                <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" target="_blank">See it live</a>
-                <a href="https://github.com/lmariemeehan/Resonate" target="_blank">Github</a>
+                  <a href="https://lmariemeehan-bloc-jams-react.herokuapp.com/" target="_blank">See it live</a>
+                  <a href="https://github.com/lmariemeehan/Resonate" target="_blank">Github</a>
                 </div>
               </div>
               <small class="text-muted">Project checklist: React, JSX, CSS, JavaScript, Bootstrap</small>
             </div>
 
-            <div class="card p-5 mb-5 animated slideInUp" id="hello-project">
-              <span class="d-flex justify-content-center p-2 rounded"><i class="far fa-comment-dots"></i></span>
-              <div class="card-body">
-                <h5 class="card-title">Hello: React & Firebase Chat App</h5>
-                <p class="card-text">This is a SPA front-end chat app built with React.js from the ground-up.</p>
+            <div class="card p-4 mb-5 animated slideInUp" id="hello-project">
+                <span class="d-flex justify-content-center p-2 rounded"><i class="far fa-comment-dots"></i></span>
+                <div class="card-body">
+                <h5 class="card-title text-center">Hello</h5>
+                <p class="card-text">A SPA front-end chat app built with React.js and Firebase for the database.</p>
                 <div class="links">
                   <a href="https://lmariemeehan-bloc-chat-react.herokuapp.com/" target="_blank">See it live</a>
                   <a href="https://github.com/lmariemeehan/Hello" target="_blank">GitHub</a>
                 </div>
               </div>
-                <small class="text-muted">Project checklist: React, JSX, CSS, JavaScript, Firebase</small>
+                <small class="text-muted">Project checklist: React, JSX, CSS, JavaScript, Bootstrap, Firebase</small>
             </div>
 
-            <div class="card p-5 mb-5 animated slideInUp" id="inquisitive-project">
+            <div class="card p-4 mb-5 animated slideInUp" id="inquisitive-project">
               <span class="d-flex justify-content-center p-2 rounded"><i class="fab fa-leanpub"></i></span>
               <div class="card-body">
-                <h5 class="card-title">Inquisitive: Node.js Wikipedia App</h5>
+                <h5 class="card-title text-center">Inquisitive</h5>
                 <p class="card-text">An MVC structured Node.js app that allows users to create, collaborate, and share wikis.</p>
                 <div class="links">
                   <a href="https://lmariemeehan-blocipedia.herokuapp.com/" target="_blank">See it live</a>
                   <a href="https://github.com/lmariemeehan/InQuisitive" target="_blank">GitHub</a>
                 </div>
               </div>
-                <small class="text-muted">Project checklist: Node, SendGrid, Jasmine, Stripe, PostgreSQL...</small>
+                <small class="text-muted">Project checklist: Node, SendGrid, Jasmine, Stripe, Bootstrap, PostgreSQL...</small>
             </div>
-
           </div>
         </div>
+
+        <div class="row">
+          <div class="card mx-auto px-5" id="work-in-progress">
+            <div class="card-body">
+              <img class="card-image img-fluid rounded" style="max-width: 540px"  src="https://res.cloudinary.com/laurameehan/image/upload/v1577864076/undraw_in_progress_ql66_wvcvnc.svg" alt="">
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </section>
 
@@ -160,7 +163,7 @@
 
         <div class="row">
           <div class="col">
-            <div id="contact-card" class="card my-5 mx-auto border-0" style="max-width: 840px;">
+            <div class="card my-5 mx-auto border-0" id="contact-card" style="max-width: 840px;">
               <div class="row no-gutters">
                 <div class="col-md-8">
                   <img class="img img-fluid rounded" src="https://res.cloudinary.com/laurameehan/image/upload/v1577870096/undraw_result_5583_ikidkn.svg" alt="svg portrait">
