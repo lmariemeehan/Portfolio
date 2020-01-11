@@ -98,19 +98,20 @@ body, html {
 
 //    Projects Section
 #projects {
-  background-color: $deepPurple_1;
+  background-color: $mediumPurple_4;
   hr {
   border-top: 2px dotted $lightSkyPurple_2;
   padding-bottom: 32px;
   margin: 0;
   }
   .card {
+    background-color: $mediumPurple_4;
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
     0 4px 25px 0px rgba(0, 0, 0, 0.12),
     0 8px 10px -5px rgba(0, 0, 0, 0.2);
   }
   span {
-    background-image: linear-gradient($lightSkyPurple_2, $darkSkyPurple_5);
+    //background-image: linear-gradient($lightSkyPurple_2, $darkSkyPurple_5);
   }
   ion-icon, i {
     color: $brightPurple_3;
@@ -122,8 +123,8 @@ body, html {
     0 4px 25px 0px rgba(0, 0, 0, 0.12),
     0 8px 10px -5px rgba(0, 0, 0, 0.2);
   }
-  h5 {
-    color: $richPurple_5;
+  h3 {
+    color: #fff;
   }
   p {
     color: $lightSkyPurple_2;
@@ -132,15 +133,18 @@ body, html {
     display: flex;
     justify-content: space-between;
   }
+  .links a {
+    color: #FF6F61;
+  }
 }
 
 #work-in-progress {
-background-color: $darkSkyPurple_5;
+background-color: $lightSkyPurple_2;
   img {
     position: relative;
     z-index: 1;
     top: -40px;
-    background-color: #fff;
+    background-color: $richPurple_5;
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
     0 4px 25px 0px rgba(0, 0, 0, 0.12),
     0 8px 10px -5px rgba(0, 0, 0, 0.2);
